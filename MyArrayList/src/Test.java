@@ -1,3 +1,5 @@
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.Iterator;
 
 /**
@@ -20,5 +22,8 @@ public class Test {
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
+
+        Deque<Integer> deque = new ArrayDeque<>();
+        deque.remove();
     }
 }
